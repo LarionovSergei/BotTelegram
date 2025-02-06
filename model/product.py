@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from model.variation import Variation
 
 
+#TODO Добавить артикл
 class Product(BaseModel):
     product_id: str
     name: Optional[str] = None
