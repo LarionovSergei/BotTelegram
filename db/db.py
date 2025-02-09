@@ -6,7 +6,7 @@ from model.product import Product
 from model.user import User
 
 
-class MongoDBHandler:
+class DB:
     def __init__(self, client: AsyncIOMotorClient, db_name: str):
         self.client = client
         self.db = self.client[db_name]
