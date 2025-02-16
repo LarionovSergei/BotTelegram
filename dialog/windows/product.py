@@ -26,5 +26,6 @@ window = Window(
         url=Const("https://google.com/"),
     ),
     state=UserSG.menu,
-    getter=get_data,
+    getter=UserSG.get_data,
+
 )
