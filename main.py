@@ -5,6 +5,7 @@ from aiogram import Bot, Dispatcher
 import config
 from handlers.start_handler import router
 
+# Какой-то комментарий
 
 async def main():
     logging.basicConfig(level=logging.DEBUG)
